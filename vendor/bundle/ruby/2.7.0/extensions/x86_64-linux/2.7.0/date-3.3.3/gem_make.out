@@ -1,0 +1,24 @@
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_category_warn()... no
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-tr48ot sitelibdir\=./.gem.20230717-88414-tr48ot clean
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-tr48ot sitelibdir\=./.gem.20230717-88414-tr48ot
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-tr48ot sitelibdir\=./.gem.20230717-88414-tr48ot install
+/bin/install -m 0755 date_core.so ./.gem.20230717-88414-tr48ot
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-tr48ot sitelibdir\=./.gem.20230717-88414-tr48ot clean

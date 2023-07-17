@@ -1,0 +1,18 @@
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1fr53p8 sitelibdir\=./.gem.20230717-88414-1fr53p8 clean
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1fr53p8 sitelibdir\=./.gem.20230717-88414-1fr53p8
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1fr53p8 sitelibdir\=./.gem.20230717-88414-1fr53p8 install
+/bin/install -m 0755 bootsnap.so ./.gem.20230717-88414-1fr53p8/bootsnap
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1fr53p8 sitelibdir\=./.gem.20230717-88414-1fr53p8 clean

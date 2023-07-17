@@ -1,0 +1,19 @@
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1ey0dvs sitelibdir\=./.gem.20230717-88414-1ey0dvs clean
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1ey0dvs sitelibdir\=./.gem.20230717-88414-1ey0dvs
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1ey0dvs sitelibdir\=./.gem.20230717-88414-1ey0dvs install
+/bin/install -m 0755 debug.so ./.gem.20230717-88414-1ey0dvs/debug
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1ey0dvs sitelibdir\=./.gem.20230717-88414-1ey0dvs clean

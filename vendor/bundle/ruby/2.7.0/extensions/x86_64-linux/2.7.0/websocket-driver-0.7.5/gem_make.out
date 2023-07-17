@@ -1,0 +1,18 @@
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-13sm0kx sitelibdir\=./.gem.20230717-88414-13sm0kx clean
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-13sm0kx sitelibdir\=./.gem.20230717-88414-13sm0kx
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-13sm0kx sitelibdir\=./.gem.20230717-88414-13sm0kx install
+/bin/install -m 0755 websocket_mask.so ./.gem.20230717-88414-13sm0kx
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-13sm0kx sitelibdir\=./.gem.20230717-88414-13sm0kx clean

@@ -1,0 +1,23 @@
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1g5ti3v sitelibdir\=./.gem.20230717-88414-1g5ti3v clean
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1g5ti3v sitelibdir\=./.gem.20230717-88414-1g5ti3v
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1g5ti3v sitelibdir\=./.gem.20230717-88414-1g5ti3v install
+/bin/install -m 0755 console.so ./.gem.20230717-88414-1g5ti3v/io
+
+current directory: /home/susan/Development/1 code/1-Personal-Projects/health-api-backend/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230717-88414-1g5ti3v sitelibdir\=./.gem.20230717-88414-1g5ti3v clean
