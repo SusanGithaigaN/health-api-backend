@@ -34,7 +34,8 @@ puts '🧑‍🍳 Seeding recipes...'
 Recipe.create(
   recipe: 'pancake',
   user_id: 1,
-  ingredient_id: 1
+  ingredient_id: 1,
+  image_url: "https://tinyurl.com/2dym8ac6"
 )
 puts '💃 Seeding Recipes done !!!...'
 

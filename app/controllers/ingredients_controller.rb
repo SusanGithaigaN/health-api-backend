@@ -1,37 +1,21 @@
 class IngredientsController < ApplicationController
-  before_action :set_ingredient, only: %i[ show edit update destroy ]
+  # before_action :set_ingredient, only: %i[ show edit update destroy ]
+  skip_before_action :verify_authenticity_token
 
   # GET /ingredients or /ingredients.json
   def index
-    @ingredients = Ingredient.all
-  end
-
-  # GET /ingredients/1 or /ingredients/1.json
-  def show
-  end
-
-  # GET /ingredients/new
-  def new
-    @ingredient = Ingredient.new
-  end
-
-  # GET /ingredients/1/edit
-  def edit
+    ingredients = Ingredient.all, 
   end
 
   # POST /ingredients or /ingredients.json
   def create
-    @ingredient = Ingredient.new(ingredient_params)
+    ingredient = Ingredient.new(ingredient_params)
 
-    respond_to do |format|
-      if @ingredient.save
-        format.html { redirect_to ingredient_url(@ingredient), notice: "Ingredient was successfully created." }
-        format.json { render :show, status: :created, location: @ingredient }
+      if ingredient.save
+        render json: ingredient, status: :created
       else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @ingredient.errors, status: :unprocessable_entity }
+        render json: { errors: ingredient.errors.full_messages }, status: :unprocessable_entity
       end
-    end
   end
 
   # PATCH/PUT /ingredients/1 or /ingredients/1.json
@@ -49,11 +33,13 @@ class IngredientsController < ApplicationController
 
   # DELETE /ingredients/1 or /ingredients/1.json
   def destroy
-    @ingredient.destroy
+    ingredient = find_by_id
 
-    respond_to do |format|
-      format.html { redirect_to ingredients_url, notice: "Ingredient was successfully destroyed." }
-      format.json { head :no_content }
+    if ingredient
+      ingredient.destroy
+      render json: { message: "Ingredient sucessfully removed"}
+    else
+      render json: { error: "Ingredient not found" }, status: :not_found
     end
   end
 
@@ -65,6 +51,6 @@ class IngredientsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def ingredient_params
-      params.fetch(:ingredient, {})
+      params.permit(:recipe_id, :calories, :fat, :carbs, :protein)
     end
 end
